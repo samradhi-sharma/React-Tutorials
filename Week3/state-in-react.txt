@@ -1,0 +1,8 @@
+/**State in react/ 
+. When we were creating movie app we were hard coding all the movies, for now its okay
+because there are less number of movies so there where state came into picture.
+. If you want to understand that what is state in simple terms ... it is more like a contaiber that actuall stores all the real time data for any variable, we can also say dynamic data it can store.
+. So in react we can use state to store dynamic data.
+. is built in object 
+. we should know that state is asynchronous like setState method works in that way.
+that means after calling setState method, the this.state variable is not immediately changed.  

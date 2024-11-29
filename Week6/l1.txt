@@ -1,0 +1,7 @@
+/** PROBLEMS WITH USING class-based components?/
+. Hard to reuse the stateful logic between components
+. Complex components become difficult to understand
+. Classes can be confusing at times.
+
+/** What are Hooks?/
+. Hooks are functions that let you hook into React state and lifecycle features from functional components.

@@ -1,0 +1,6 @@
+ComponentA Constructor
+ComponentA.js:22 ComponentA render
+ComponentB.js:8 ComponentA Constructor
+ComponentB.js:20 ComponentB render
+ComponentB.js:17 ComponentB componentDidMount
+ComponentA.js:19 ComponentA componentDidMount
