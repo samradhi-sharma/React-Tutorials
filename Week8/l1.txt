@@ -1,0 +1,5 @@
+/** Context Api/
+It has basically three steps
+1. create Context
+2. create provider
+3. use the context in the component
