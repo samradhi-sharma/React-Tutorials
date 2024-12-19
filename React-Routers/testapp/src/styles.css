@@ -24,13 +24,16 @@
 nav {
   margin-left: 30px;
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
-nav span {
-  font-weight: bold;
+nav a {
+  padding: 5px 10px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #fff;
   font-size: 1.1rem;
-  cursor: pointer;
+  font-weight: bold;
 }
 
 .home {
@@ -53,6 +56,30 @@ nav span {
 .socails img {
   width: 40px;
   cursor: pointer;
+}
+
+.auth-status {
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 40px;
+  background-color: #9a64ec;
+}
+
+.auth-status span {
+  padding: 10px 15px;
+  border-radius: 30px;
+  background-color: #fff;
+  cursor: pointer;
+  margin-inline: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.auth-status .active {
+  border: 2px solid #fff;
+  background-color: #e1d1f976;
+  color: #fff;
 }
 
 .contact form {
@@ -111,9 +138,49 @@ form button {
   padding: 10px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
-.item h3 {
+.item a {
   align-self: flex-start;
 }
 .item img {
   width: 150px;
+}
+
+.item-details img {
+  width: 40vw;
+}
+
+.specs {
+  margin: 30px;
+}
+.specs li {
+  margin-block: 5px;
+}
+
+.not-found {
+  width: 40vw;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.not-found h3 {
+  font-size: 1.2rem;
+}
+.not-found img {
+  width: 90%;
+}
+
+.not-found button {
+  border: none;
+  outline: none;
+  width: 100%;
+  align-self: center;
+  padding: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #9a64ec;
+  cursor: pointer;
 }

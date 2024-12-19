@@ -1,7 +1,21 @@
-export const Home = () => {
+export const Home = ({ loggedIn, setLoggedin }) => {
   return (
     <div className="home page">
       <h3>RapidRetail</h3>
+      <div className="auth-status">
+        <span
+          className={`${loggedIn && "active"}`}
+          onClick={() => setLoggedin(true)}
+        >
+          Login user
+        </span>
+        <span
+          className={`${!loggedIn && "active"}`}
+          onClick={() => setLoggedin(false)}
+        >
+          Logout user
+        </span>
+      </div>
       <img
         src="https://cdn-icons-png.flaticon.com/512/3343/3343850.png"
         alt="shoe"
