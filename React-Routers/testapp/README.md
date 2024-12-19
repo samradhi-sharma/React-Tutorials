@@ -1,7 +1,9 @@
-![image](https://github.com/user-attachments/assets/953fd6d8-c9e8-4919-8ea5-3a86470a003d)
+![image](https://github.com/user-attachments/assets/268b5864-eba9-49ca-977d-ba5399b1bb47)
 
-![image](https://github.com/user-attachments/assets/1fcc2a23-1cf0-49f8-be4a-1ea80bc5ad01)
+![image](https://github.com/user-attachments/assets/e655d112-648a-44a7-84e0-6ff2f6d53a40)
 
-![image](https://github.com/user-attachments/assets/1bb2d362-36de-4358-b9ae-401dbb5875b6)
+![image](https://github.com/user-attachments/assets/803a8e68-feaa-447d-8c93-72fd452f86cb)
 
+
+After clicking on login we will be able to access all other sections and on clicking logout we won't be able to access. 
 
